@@ -59,10 +59,10 @@ body {
   line-height: 42px;
   font-family: 'Roboto', sans-serif;
 }
-.fs-20 {
+.fz-20 {
   font-size: 20px;
 }
-.fs-64 {
+.fz-64 {
   font-size: 64px;
 }
 .lh-30 {
@@ -92,11 +92,11 @@ body {
 .mb-5{
   margin-bottom: 40px;
 }
-.mb-6{
+.mb-7{
   margin-bottom: 56px;
 }
-.ml-2{
-  margin-left: 16px;
+.mt-6{
+  margin-top: 48px;
 }
 .mr-3{
   margin-right: 24px;
@@ -108,7 +108,7 @@ body {
   text-align: center;
 }
 .container {
-  width: 1920px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 .banner {
@@ -138,8 +138,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-
 }
 .about-bg {
   height: 384px;
@@ -159,6 +157,7 @@ body {
 .about ul li{
   margin-bottom: 28px;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 .cirle{
@@ -174,33 +173,42 @@ body {
   background: #000000;
   border: 1px solid #707070;
 }
-.mybrand h2 {
+.mybrand-content h2 {
   margin-bottom: 12px;
 }
-.mybrand-mb {
+.mybrand-mb-68 {
   margin-bottom: 68px;
 }
 .mybrand-img {
   display: flex;
-  
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.tshirtone {
+.mybrand-topimg {
   height: 416px;
   width: 792px;
   background: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week2/brand_img1.png?raw=true") center center no-repeat;
   background-size: cover;
 }
-.tshirttwo {
+.mybrand-centerimg {
   height: 416px;
-  width: 792px;
+  width: 588px;
   background: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week2/brand_img2.png?raw=true") center center no-repeat;
   background-size: cover;
 }
-.tshirtthree {
+.mybrand-endimg {
   height: 416px;
-  width: 792px;
+  width: 588px;
   background: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week2/brand_img3.png?raw=true") center center no-repeat;
   background-size: cover;
 }
-
-
+.otherWorksList {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 144px;
+}
+.contact {
+  padding: 64px 0px;
+  background: #000000;
+}
