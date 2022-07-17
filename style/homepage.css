@@ -137,8 +137,9 @@ body {
 .about {
   display: flex;
   flex-direction: column;
-
   align-items: center;
+
+
 }
 .about-bg {
   height: 384px;
@@ -201,3 +202,5 @@ body {
   background: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week2/brand_img3.png?raw=true") center center no-repeat;
   background-size: cover;
 }
+
+
